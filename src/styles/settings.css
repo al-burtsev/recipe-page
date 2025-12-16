@@ -55,11 +55,11 @@ body {
 .sr-only {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
+    height: 0.0625rem;
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
+    width: 0.0625rem;
 }
 
 .list {
@@ -103,10 +103,6 @@ td {
     padding: 0.625rem 0.5rem 0.5625rem;
 }
 
-tr:not(:last-child) td {
-    border-bottom: 0.0625rem solid var(--stone-150);
-}
-
 td:nth-child(odd) {
     padding-inline-start: 1.875rem;
 }
@@ -114,4 +110,8 @@ td:nth-child(odd) {
 td:nth-child(even) {
     font-weight: 700;
     color: var(--brown-800);
+}
+
+tr:not(:last-child) td {
+    border-bottom: 0.0625rem solid var(--stone-150);
 }
