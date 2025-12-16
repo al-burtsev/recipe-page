@@ -1,0 +1,50 @@
+.article {
+    background-color: var(--white);
+}
+
+.article-main {
+    padding: 2rem;
+}
+
+.article-title {
+    margin-block-end: 1.5rem;
+
+    font-size: clamp(2.25rem, 4vw, 2.5rem);
+    line-height: 1;
+    color: var(--stone-900);
+}
+
+.article-descr {
+    margin-block: 0;
+    margin-block-end: 2rem;
+}
+
+.highlited {
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    background-color: var(--rose-50);
+
+    ::marker {
+        color: var(--rose-800);
+    }
+}
+
+.highlited__title {
+    margin-block-end: 0.5rem;
+
+    color: var(--rose-800);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.article-section {
+    padding-block: 1.75rem;
+
+    ::marker {
+        color: var(--brown-800);
+    }
+}
+
+.article-section:not(:last-child) {
+    border-bottom: 0.0625rem solid var(--stone-150);
+}

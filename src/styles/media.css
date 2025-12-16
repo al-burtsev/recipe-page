@@ -1,0 +1,36 @@
+@media (width >=48rem) {
+    main {
+        padding-block: 8.5%;
+    }
+
+    .article {
+        border-radius: 1.5rem;
+    }
+
+    .article-header {
+        padding: 2.5rem;
+        padding-block-end: 0;
+    }
+
+    .article-header img {
+        border-radius: 1rem;
+    }
+
+    .article-main {
+        padding: 2.1875rem 2.5rem 0;
+    }
+
+    .article-intro {
+        margin-block-end: 0.3125rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --white: hsl(0, 0%, 98%);
+    }
+
+    img {
+        filter: brightness(70%);
+    }
+}
